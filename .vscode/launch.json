@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MscartoesApplication",
+            "request": "launch",
+            "mainClass": "io.github.cursodsouza.mscartoes.MscartoesApplication",
+            "projectName": "mscartoes"
+        },
+        {
+            "type": "java",
             "name": "Launch MscloudgatewayApplication",
             "request": "launch",
             "mainClass": "io.github.cursodsouza.mscloudgateway.MscloudgatewayApplication"
