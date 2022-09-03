@@ -42,6 +42,16 @@
             "projectName": "mscloudgateway",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsavaliadorcreditoApplication<msavaliadorcredito>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "io.github.cursodsouza.msavaliadorcredito.MsavaliadorcreditoApplication",
+            "projectName": "msavaliadorcredito",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
