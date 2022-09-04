@@ -1,13 +1,14 @@
 package io.github.cursodsouza.msavaliadorcredito.domain.model;
 
+import java.math.BigDecimal;
+
 import lombok.Data;
 
 @Data
-public class DadosCliente {
-
+public class Cartao {
+    
     private Long id;
     private String nome;
-    private Integer idade;
-    
-
+    private String bandeira;
+    private BigDecimal limiteBasico;
 }
