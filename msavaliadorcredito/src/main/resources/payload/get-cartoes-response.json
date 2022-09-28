@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "bradesco mastercard",
+    "bandeira": "MASTERCARD",
+    "renda": 5000,
+    "limite": 8000
+  },
+  {
+    "nome": "bradesco visa",
+    "bandeira": "VISA",
+    "renda": 5000,
+    "limite": 8000
+  }
+]

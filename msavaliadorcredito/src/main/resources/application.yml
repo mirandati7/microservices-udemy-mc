@@ -5,6 +5,10 @@ spring:
 server:
   port: 0
 
+cartoes:
+  service:
+    url: http://localhost:9561
+    
 eureka:
   client:
     service-url:
