@@ -2,8 +2,6 @@ package io.github.cursodsouza.msavaliadorcredito.domain.model;
 
 import java.util.List;
 
-import org.springframework.http.ResponseEntity;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
