@@ -38,7 +38,7 @@ public class AvaliadorCreditoService {
     public SituacaoCliente obterSituacaoCliente(String cpf) throws DadosClienteNotFoundException,
                                                                    ErroComunicacaoMicroservicosException {
        try {
-            ResponseEntity<DadosCliente> dadosClienteResponse = clientesClient.dadosCliente(cpf);
+            ResponseEntity<DadosCliente> dadosClienteResponse =  clientesClient.dadosCliente(cpf);
             ResponseEntity<List<CartaoCliente>> cartoesReponse = cartoesClient.getCartoesByCliente(cpf);
             
             return SituacaoCliente.builder()
@@ -60,7 +60,7 @@ public class AvaliadorCreditoService {
                                                                                     ErroComunicacaoMicroservicosException {    
             try {
                ResponseEntity<DadosCliente> dadosClienteResponse = clientesClient.dadosCliente(cpf);
-               ResponseEntity<List<Cartao>> cartoesResponse= cartoesClient.getCartoesRendaAte(renda);
+               ResponseEntity<List<Cartao>> cartoesResponse = cartoesClient.getCartoesRendaAte(renda);
                
                List<Cartao> cartoes = cartoesResponse.getBody();
                 var  listaCartoesAprovados = cartoes.stream().map(cartao -> {
