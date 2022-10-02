@@ -9,7 +9,7 @@ spring:
 
 server:
   port: 0
-
+      
 eureka:
   client:
     service-url:
@@ -20,14 +20,3 @@ eureka:
 mq:
   queues:
     emissao-cartoes: emissao-cartoes    
-
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
-logging:
-  file:
-    name: ./logs/log-file.log
