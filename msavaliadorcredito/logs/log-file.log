@@ -88,3 +88,14 @@
 2022-10-02 07:42:18.669  INFO 2906 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-10-02 07:42:18.670  INFO 2906 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2022-10-02 07:43:55.749  INFO 2906 --- [http-nio-auto-1-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 109 ms
+2022-10-02 07:47:17.400  INFO 2906 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-02 07:52:17.402  INFO 2906 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-02 07:57:17.403  INFO 2906 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-02 07:59:28.928  INFO 2906 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-10-02 07:59:28.928  INFO 2906 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1664708368928, current=DOWN, previous=UP]
+2022-10-02 07:59:28.929  INFO 2906 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:6ddf3e1bdd59cc5a9e8c7268ab63b6dc: registering service...
+2022-10-02 07:59:28.935  INFO 2906 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:6ddf3e1bdd59cc5a9e8c7268ab63b6dc - registration status: 204
+2022-10-02 07:59:28.974  INFO 2906 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-10-02 07:59:31.977  INFO 2906 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-10-02 07:59:31.982  INFO 2906 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:6ddf3e1bdd59cc5a9e8c7268ab63b6dc - deregister  status: 200
+2022-10-02 07:59:31.987  INFO 2906 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
