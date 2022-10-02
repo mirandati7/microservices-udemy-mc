@@ -10,6 +10,8 @@ Curso Spring Cloud Microserviços
    - Keycloak (Autenticação e Autorização)
    - RabbitMQ (Messageria)
    - Docker
+   - VSCode
+   - Insomnia
 
 # Certificado de Curso Spring Cloud Microserviços
 ![My Image](readme/certificado-microservicos.jpg)
