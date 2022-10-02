@@ -1,0 +1,12 @@
+Curso Spring Cloud Microserviços 
+- Tecnologias
+   - Java 17
+   - Spring Cloud
+   - Spring Cloud Eureka Server
+   - Spring Data JPA
+   - Banco de dados H2
+   - Spring MVC RestController
+   - Spring Cloud Gateway
+   - Keycloak (Autenticação e Autorização)
+   - RabbitMQ (Messageria)
+   - Docker
